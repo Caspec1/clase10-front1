@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+p, h1, h2, h3 {
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+.discount {
+  background-color: #1CD1B0;
+  padding: 10px 30px;
+}
+
+.header-bar {
+  background-color: #00669F;
+  font-weight: normal;
+  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+  padding: 25px 30px;
+}
+
+main {
+  padding: 100px 0px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  position: relative;
+}
+
+.card-profile {
+  width: 120px;
+  border-radius: 100%;
+  position: absolute;
+  top: 130px;
+  left: 90px;
+}
+
+.card-heart {
+  position: absolute;
+  width: 30px;
+  top: 20px;
+  left: 20px;
+}
+
+.content {
+  background-color: #F3F3F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.text {
+  padding: 80px 10px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  background-color: #00669F;
+  color: #fff;
+  text-align: center;
+  width: 128.78px;
+  height: 48.52px;
+  border: none;
+  margin: 10px auto 30px auto;
+  display: block;
+  transition-property: opacity scale;
+  transition-duration: 300ms;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 90%;
+  scale: 1.05;
+}
+
+footer {
+  background-color: #00669F;
+  color: #fff;
+  padding: 20px 30px;
+}
