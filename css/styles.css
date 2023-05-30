@@ -11,6 +11,11 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+header {
+  position: sticky;
+  top: 0;
+}
+
 p, h1, h2, h3 {
   margin: 0;
 }
