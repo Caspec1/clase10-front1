@@ -52,13 +52,13 @@ main {
 }
 
 .banner-batman {
-  background-image: url(/clase10-front1/img/bg-batman.png);
+  background-image: url(../img/bg-batman.png);
   width: 300px;
   height: 193px;
 }
 
 .banner-harley {
-  background-image: url(/clase10-front1/img/bg-harley.png);
+  background-image: url(../img/bg-harley.png);
   width: 300px;
   height: 193px;
 }
