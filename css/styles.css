@@ -76,7 +76,7 @@ h2 {
 
 #menuToggle a:hover
 {
-  color: tomato;
+  color: #00669F;
 }
 
 
@@ -108,7 +108,7 @@ h2 {
   margin-bottom: 5px;
   position: relative;
 
-  background: #cdcdcd;
+  background: #fff;
   border-radius: 3px;
 
   z-index: 1;
@@ -138,7 +138,7 @@ h2 {
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  background: #00669F;
 }
 
 /*
@@ -171,7 +171,7 @@ h2 {
   padding-top: 125px;
   height: 100vh;
 
-  background: #ededed;
+  background: #fff;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
