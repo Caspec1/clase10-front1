@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heroes</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="discount">
+    <p>Descuentos 20%</p>
+  </div>
+  <header>
+    <div class="header-bar">
+      <nav role="navigation">
+        <div id="menuToggle">
+          <!--
+          A fake / hidden checkbox is used as click reciever,
+          so you can use the :checked selector on it.
+          -->
+          <input type="checkbox" />
+
+          <!--
+          Some spans to act as a hamburger.
+
+          They are acting like a real hamburger,
+          not that McDonalds stuff.
+          -->
+          <span></span>
+          <span></span>
+          <span></span>
+
+          <!--
+          Too bad the menu has to be inside of the button
+          but hey, it's pure CSS magic.
+          -->
+          <ul id="menu">
+            <a href="#"><li>Home</li></a>
+            <a href="#"><li>About</li></a>
+            <a href="#"><li>Info</li></a>
+            <a href="#"><li>Contact</li></a>
+            <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
+          </ul>
+        </div>
+      </nav>
+      <h1><a href="./index.html" class="heroes">Heroes</a></h1>
+  </header>
+  <nav class="new-nav">
+    <ul class="new-ul">
+      <li><a href="./contacto.html">Contacto</a></li>
+      <li><a href="#">Registrarme</a></li>
+      <li><a href="#">Ingresar</a></li>
+    </ul>
+  </nav>
+  <div class="form-container">
+    <h2>Añadí tu super</h2>
+    <p>Agregá tu personaje favorito completando las opciones.</p>
+    <form class="form">
+      <div class="form-row">
+        <div class="field">
+          <label for="name">* Nombre</label>
+          <input type="text" placeholder="Nombre" id="name" name="name">
+        </div>
+        <div class="field">
+          <label for="specie">* Especie</label>
+          <select id="specie" name="specie">
+            <option value="" selected disabled>Especie</option>
+            <option value="fuerza">Fuerza</option>
+            <option value="velocidad">Velocidad</option>
+            <option value="inteligencia">Inteligencia</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="field">
+          <label for="date">Fecha</label>
+          <input type="date" id="date" name="date">
+        </div>
+        <div class="field">
+          <label for="file">Agregar foto</label>
+          <input type="file" id="file" name="file">
+        </div>
+      </div>
+      <div class="form-row">
+        <textarea name="description" rows="11" id="description" placeholder="Descripción"></textarea>
+        <div class="boxes">
+          <div class="checks">
+            <label>Poderes</label>
+            <div class="checkbox">
+              <input type="checkbox" id="volar" value="volar" name="volar">
+              <label for="volar">Volar</label>
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" id="superinteligencia" value="superinteligencia" name="superinteligencia">
+              <label for="superinteligencia">Superinteligencia</label>
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" id="rayos_laser" value="rayos_laser" name="rayos_laser">
+              <label for="rayos_laser">Vista de rayos láser</label>
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" id="billetera_gorda" value="billetera_gorda" name="billetera_gorda">
+              <label for="billetera_gorda">Billetera Gorda</label>
+            </div>
+          </div>
+          <hr>
+          <div class="checks">
+            <div class="checkbox">
+              <input type="radio" id="heroe" value="Héroe / Heroína" name="heroe">
+              <label for="heroe">Héroe / Heroína</label>
+            </div>
+            <div class="checkbox">
+              <input type="radio" id="villano" value="Villano / Villana" name="heroe">
+              <label for="villano">Villano / Villana</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="submit">
+        <input type="submit" class="button" value="Añadir">
+      </div>
+    </form>
+  </div>
+  <footer>
+    <p>Todos los derechos reservados a FRONT END 1</p>
+  </footer>
+</body>
+</html>
